@@ -1,0 +1,7 @@
+function FinalCTA() {
+  return (
+    <section id="demo" className="border-b border-slate-200 bg-indigo-50/60 px-6 py-20 lg:px-8 lg:py-24"><div className="mx-auto flex max-w-4xl flex-col items-center text-center"><span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-sm font-bold tracking-widest text-indigo-600 shadow-sm">N</span><h2 className="mt-6 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">Make work feel simpler.</h2><p className="mt-4 max-w-lg text-base leading-7 text-slate-600">Bring your team&apos;s work, workflows, and insights together with NOVA.</p><div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row"><a href="#get-started" className="rounded-lg bg-indigo-600 px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-indigo-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-indigo-600">Start for free</a><a href="#demo" className="rounded-lg border border-slate-300 bg-white px-5 py-3 text-center text-sm font-semibold text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-indigo-600">Book a demo</a></div></div></section>
+  )
+}
+
+export default FinalCTA

@@ -1,0 +1,30 @@
+export const pricingPlans = [
+  {
+    name: 'Starter',
+    monthlyPrice: '$0',
+    yearlyPrice: '$0',
+    suffix: '/ month',
+    description: 'For individuals and small teams getting started.',
+    features: ['Up to 5 users', 'Basic task management', 'Shared workspace', 'Weekly insights'],
+    cta: 'Start for free',
+  },
+  {
+    name: 'Pro',
+    monthlyPrice: '$24',
+    yearlyPrice: '$19',
+    suffix: '/ user / month',
+    description: 'For growing teams that need advanced productivity features.',
+    features: ['Unlimited projects', 'AI-assisted workflows', 'Advanced automation', 'Team analytics', 'Priority support'],
+    cta: 'Start free trial',
+    popular: true,
+  },
+  {
+    name: 'Enterprise',
+    monthlyPrice: 'Custom',
+    yearlyPrice: 'Custom',
+    suffix: '',
+    description: 'For organizations that need scale, security and support.',
+    features: ['Everything in Pro', 'Advanced permissions', 'Custom workflows', 'SSO and security controls', 'Dedicated support'],
+    cta: 'Talk to sales',
+  },
+]
